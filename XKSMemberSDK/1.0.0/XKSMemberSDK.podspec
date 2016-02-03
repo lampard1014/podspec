@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XKSMemberSDK"
   s.version      = "1.0.0"
-  s.summary      = "sadfsdfasf"
+  s.summary      = "no summary  ,pod install testing"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "XKSMemberSDK/**/*.{h,m}", "XKSMemberSDK/SDK", "XKSMemberSDK/SDK/**/*.{h,m}"
- #s.exclude_files = "XKSMemberSDK/XKSMemberSDK.h"
+  s.exclude_files = "XKSMemberSDK/SDK/Vendor/**/*.{h,m}"
 #s.public_header_files = "include/XKSMemberSDK/*.h"
 #s.header_dir = "include/XKSMemberSDK/**/*.{h,m}"
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
